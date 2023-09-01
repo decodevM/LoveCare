@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCBE079A2AA2269B00F6A798 /* LoveCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBE07992AA2269B00F6A798 /* LoveCareApp.swift */; };
+		CCBE079C2AA2269B00F6A798 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBE079B2AA2269B00F6A798 /* ContentView.swift */; };
+		CCBE079E2AA2269C00F6A798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBE079D2AA2269C00F6A798 /* Assets.xcassets */; };
+		CCBE07A12AA2269C00F6A798 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCBE07A02AA2269C00F6A798 /* Preview Assets.xcassets */; };
+		CCBE07AB2AA2269C00F6A798 /* LoveCareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBE07AA2AA2269C00F6A798 /* LoveCareTests.swift */; };
+		CCBE07B52AA2269C00F6A798 /* LoveCareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBE07B42AA2269C00F6A798 /* LoveCareUITests.swift */; };
+		CCBE07B72AA2269C00F6A798 /* LoveCareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBE07B62AA2269C00F6A798 /* LoveCareUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCBE07A72AA2269C00F6A798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCBE078E2AA2269B00F6A798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCBE07952AA2269B00F6A798;
+			remoteInfo = LoveCare;
+		};
+		CCBE07B12AA2269C00F6A798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCBE078E2AA2269B00F6A798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCBE07952AA2269B00F6A798;
+			remoteInfo = LoveCare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCBE07962AA2269B00F6A798 /* LoveCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBE07992AA2269B00F6A798 /* LoveCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveCareApp.swift; sourceTree = "<group>"; };
+		CCBE079B2AA2269B00F6A798 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCBE079D2AA2269C00F6A798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCBE07A02AA2269C00F6A798 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCBE07A62AA2269C00F6A798 /* LoveCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBE07AA2AA2269C00F6A798 /* LoveCareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveCareTests.swift; sourceTree = "<group>"; };
+		CCBE07B02AA2269C00F6A798 /* LoveCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCBE07B42AA2269C00F6A798 /* LoveCareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveCareUITests.swift; sourceTree = "<group>"; };
+		CCBE07B62AA2269C00F6A798 /* LoveCareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveCareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCBE07932AA2269B00F6A798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBE07A32AA2269C00F6A798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBE07AD2AA2269C00F6A798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCBE078D2AA2269B00F6A798 = {
+			isa = PBXGroup;
+			children = (
+				CCBE07982AA2269B00F6A798 /* LoveCare */,
+				CCBE07A92AA2269C00F6A798 /* LoveCareTests */,
+				CCBE07B32AA2269C00F6A798 /* LoveCareUITests */,
+				CCBE07972AA2269B00F6A798 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCBE07972AA2269B00F6A798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE07962AA2269B00F6A798 /* LoveCare.app */,
+				CCBE07A62AA2269C00F6A798 /* LoveCareTests.xctest */,
+				CCBE07B02AA2269C00F6A798 /* LoveCareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCBE07982AA2269B00F6A798 /* LoveCare */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE07992AA2269B00F6A798 /* LoveCareApp.swift */,
+				CCBE079B2AA2269B00F6A798 /* ContentView.swift */,
+				CCBE079D2AA2269C00F6A798 /* Assets.xcassets */,
+				CCBE079F2AA2269C00F6A798 /* Preview Content */,
+			);
+			path = LoveCare;
+			sourceTree = "<group>";
+		};
+		CCBE079F2AA2269C00F6A798 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE07A02AA2269C00F6A798 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCBE07A92AA2269C00F6A798 /* LoveCareTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE07AA2AA2269C00F6A798 /* LoveCareTests.swift */,
+			);
+			path = LoveCareTests;
+			sourceTree = "<group>";
+		};
+		CCBE07B32AA2269C00F6A798 /* LoveCareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCBE07B42AA2269C00F6A798 /* LoveCareUITests.swift */,
+				CCBE07B62AA2269C00F6A798 /* LoveCareUITestsLaunchTests.swift */,
+			);
+			path = LoveCareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCBE07952AA2269B00F6A798 /* LoveCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBE07BA2AA2269C00F6A798 /* Build configuration list for PBXNativeTarget "LoveCare" */;
+			buildPhases = (
+				CCBE07922AA2269B00F6A798 /* Sources */,
+				CCBE07932AA2269B00F6A798 /* Frameworks */,
+				CCBE07942AA2269B00F6A798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveCare;
+			productName = LoveCare;
+			productReference = CCBE07962AA2269B00F6A798 /* LoveCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCBE07A52AA2269C00F6A798 /* LoveCareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBE07BD2AA2269C00F6A798 /* Build configuration list for PBXNativeTarget "LoveCareTests" */;
+			buildPhases = (
+				CCBE07A22AA2269C00F6A798 /* Sources */,
+				CCBE07A32AA2269C00F6A798 /* Frameworks */,
+				CCBE07A42AA2269C00F6A798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCBE07A82AA2269C00F6A798 /* PBXTargetDependency */,
+			);
+			name = LoveCareTests;
+			productName = LoveCareTests;
+			productReference = CCBE07A62AA2269C00F6A798 /* LoveCareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCBE07AF2AA2269C00F6A798 /* LoveCareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCBE07C02AA2269C00F6A798 /* Build configuration list for PBXNativeTarget "LoveCareUITests" */;
+			buildPhases = (
+				CCBE07AC2AA2269C00F6A798 /* Sources */,
+				CCBE07AD2AA2269C00F6A798 /* Frameworks */,
+				CCBE07AE2AA2269C00F6A798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCBE07B22AA2269C00F6A798 /* PBXTargetDependency */,
+			);
+			name = LoveCareUITests;
+			productName = LoveCareUITests;
+			productReference = CCBE07B02AA2269C00F6A798 /* LoveCareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCBE078E2AA2269B00F6A798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CCBE07952AA2269B00F6A798 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CCBE07A52AA2269C00F6A798 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CCBE07952AA2269B00F6A798;
+					};
+					CCBE07AF2AA2269C00F6A798 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CCBE07952AA2269B00F6A798;
+					};
+				};
+			};
+			buildConfigurationList = CCBE07912AA2269B00F6A798 /* Build configuration list for PBXProject "LoveCare" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCBE078D2AA2269B00F6A798;
+			productRefGroup = CCBE07972AA2269B00F6A798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCBE07952AA2269B00F6A798 /* LoveCare */,
+				CCBE07A52AA2269C00F6A798 /* LoveCareTests */,
+				CCBE07AF2AA2269C00F6A798 /* LoveCareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCBE07942AA2269B00F6A798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBE07A12AA2269C00F6A798 /* Preview Assets.xcassets in Resources */,
+				CCBE079E2AA2269C00F6A798 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBE07A42AA2269C00F6A798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBE07AE2AA2269C00F6A798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCBE07922AA2269B00F6A798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBE079C2AA2269B00F6A798 /* ContentView.swift in Sources */,
+				CCBE079A2AA2269B00F6A798 /* LoveCareApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBE07A22AA2269C00F6A798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBE07AB2AA2269C00F6A798 /* LoveCareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCBE07AC2AA2269C00F6A798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBE07B72AA2269C00F6A798 /* LoveCareUITestsLaunchTests.swift in Sources */,
+				CCBE07B52AA2269C00F6A798 /* LoveCareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCBE07A82AA2269C00F6A798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCBE07952AA2269B00F6A798 /* LoveCare */;
+			targetProxy = CCBE07A72AA2269C00F6A798 /* PBXContainerItemProxy */;
+		};
+		CCBE07B22AA2269C00F6A798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCBE07952AA2269B00F6A798 /* LoveCare */;
+			targetProxy = CCBE07B12AA2269C00F6A798 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCBE07B82AA2269C00F6A798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCBE07B92AA2269C00F6A798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCBE07BB2AA2269C00F6A798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoveCare/Preview Content\"";
+				DEVELOPMENT_TEAM = N387Q3N84N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.decodev.LoveCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCBE07BC2AA2269C00F6A798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoveCare/Preview Content\"";
+				DEVELOPMENT_TEAM = N387Q3N84N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.decodev.LoveCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCBE07BE2AA2269C00F6A798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N387Q3N84N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.decodev.LoveCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveCare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoveCare";
+			};
+			name = Debug;
+		};
+		CCBE07BF2AA2269C00F6A798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N387Q3N84N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.decodev.LoveCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveCare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoveCare";
+			};
+			name = Release;
+		};
+		CCBE07C12AA2269C00F6A798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N387Q3N84N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.decodev.LoveCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoveCare;
+			};
+			name = Debug;
+		};
+		CCBE07C22AA2269C00F6A798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N387Q3N84N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.decodev.LoveCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoveCare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCBE07912AA2269B00F6A798 /* Build configuration list for PBXProject "LoveCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBE07B82AA2269C00F6A798 /* Debug */,
+				CCBE07B92AA2269C00F6A798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBE07BA2AA2269C00F6A798 /* Build configuration list for PBXNativeTarget "LoveCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBE07BB2AA2269C00F6A798 /* Debug */,
+				CCBE07BC2AA2269C00F6A798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBE07BD2AA2269C00F6A798 /* Build configuration list for PBXNativeTarget "LoveCareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBE07BE2AA2269C00F6A798 /* Debug */,
+				CCBE07BF2AA2269C00F6A798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCBE07C02AA2269C00F6A798 /* Build configuration list for PBXNativeTarget "LoveCareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBE07C12AA2269C00F6A798 /* Debug */,
+				CCBE07C22AA2269C00F6A798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCBE078E2AA2269B00F6A798 /* Project object */;
+}
